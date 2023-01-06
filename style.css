@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* font sens */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    padding:20px 180px;
+    margin: 0px;
+    background-color: antiquewhite;
+    display: flex;
+    background-image: url(/images/banner/banner1.png);
+    height: 600px;
+    background-size: cover;
+}
+/* set header-text position */
+.main-text{
+    justify-content: center right;
+    text-align: right;
+   position:relative;
+   padding: 180px 30px 100px 600px;
+   
+}
+header h1{
+    font-size: 50px;
+    font: bold;
+}
+header button{
+    padding: 15px 25px;
+    background-color: orangered;
+    color: beige;
+    border: none;
+}
+
+/* body style */
+.body-test{
+    display: flex;
+    position: center; 
+    /* text-align: right center; */
+    padding: 100px; 
+}
