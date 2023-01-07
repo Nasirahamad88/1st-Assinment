@@ -12,7 +12,7 @@ header{
     margin: 0px;
     background-color: antiquewhite;
     display: flex;
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(./images/banner/banner1.png);
     height: 600px;
     background-size: cover;
 }
@@ -41,4 +41,41 @@ header button{
     position: center; 
     /* text-align: right center; */
     padding: 100px; 
+}
+
+/* my plans style */
+.plans{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    
+}
+.plans h1 h4{
+    /* padding: 300px 300px 300px 50px; */
+}
+
+/* watch image style */
+.watch{
+    /* size: 200px; */
+    background-image:url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: center;
+    padding: 70px 100px;
+    background-image:-o-linear-gradient (to left,rgb(138, 58, 58) ,rgb(129, 129, 192));
+}
+
+/* main-footer style */
+footer{
+    padding: 100px 180px;
+    height: 200px;
+    background-color: black;
+    color: aliceblue;
+    /* display: flex; */
+
+}
+.footer{
+
+    justify-content: space-between;
+    
 }
