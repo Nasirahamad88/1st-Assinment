@@ -3,6 +3,12 @@
     padding: 0px;
 
 }
+/* navigation style */
+/* nav{
+    margin: 0;
+    display: flex;
+    /* justify-content: ; */
+} */
 /* font sens */
 *{
     font-family: 'Open Sans', sans-serif;
@@ -36,23 +42,33 @@ header button{
 }
 
 /* body style */
-.body-test{
+.body{
     display: flex;
     position: center; 
-    /* text-align: right center; */
-    padding: 100px; 
+    /* padding-left: 10%; */
+   
+
+}
+.body-text{
+    padding: 15px;
+    font-weight: 450px;
+    margin-top: 20%;
+    margin-right: 5%;
+    margin-left: 15%;
+
 }
 
 /* my plans style */
+.myplans{
+    padding-left: 43%;
+    margin-top: 100px;
+}
 .plans{
     display: flex;
     justify-content: space-between;
     padding: 100px;
     
 }
-/* .plans h1 h4{ */
-    /* padding: 300px 300px 300px 50px; */
-/* } */
 
 /* watch image style */
 .watch{
