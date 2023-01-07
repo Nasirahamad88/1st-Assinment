@@ -83,7 +83,7 @@ span{
 /* watch image style */
 .watch{
     color: beige;
-    background-image:to left,linear-gradient(black, blue,gold),url(images/watch.jpg);
+    background-image:url(images/watch.jpg);
     /* background-image: to left,linear-gradient(black, blue,gold); */
     background-repeat: no-repeat;
     background-position: center;
