@@ -68,7 +68,18 @@ span{
     padding: 100px;
     
 }
-
+/* My hobby style */
+.my-hobby{
+    padding-left: 43%;
+    margin-top: 100px; 
+    
+}
+.hobby{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    
+}
 /* watch image style */
 .watch{
     color: beige;
